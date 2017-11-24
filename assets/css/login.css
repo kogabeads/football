@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+header{
+	width: 100%;
+	height: .88rem;
+	background: #0dc441;
+	font-size: .34rem;
+	color: #fff;
+	text-align: center;
+	line-height: .88rem;
+}
+
+section{
+	padding: .3rem	.3rem;
+}
+
+section input{
+	width: 5.8rem;
+	height: .66rem;
+	border: 0;
+	border-bottom: 1px solid #7f7f7f;
+	margin-top: .54rem; 
+	font-size: .28rem;
+	color:#cacaca;
+	line-height: .66rem;
+}
+
+section p{
+	font-size: 0.24rem;
+	color:#999999;
+}
+
+section p a{
+	color:#a3e9b7;
+	margin-left: .03rem;
+	text-decoration: underline;
+	background:#fff;
+	font-size: .24rem;
+}
+
+section a{
+	width: 5.8rem;
+	height: .88rem;
+	background: #0dc441;
+	font-size: .34rem;
+	color: #fff;
+	text-align: center;
+	line-height: .88rem;
+	border-radius: .05rem;
+	margin-top: .52rem;
+}
+
+.p_info{
+	display: none;
+	font-size: .24rem;
+	color:red;
+}
+
+.u_info{
+	display: none;
+	font-size: .24rem;
+	color:red;
+}
+
+.p_yes{
+	font-size: .24rem;
+}
+
+.u_yes{
+	font-size: .24rem;
+}

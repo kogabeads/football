@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+#con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/*==============header==================*/
+
+header{
+	width: 100%;
+	height: .88rem;
+	background: #0dc441;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.header_con{
+	width: 2.35rem;
+	height: .48rem;
+	background:#3dd067;
+	position:absolute;
+	color:#a3e9b7;
+	font-size: .24rem;
+	display: flex;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: .24rem;
+	line-height: .48rem;
+	text-align: center;
+}
+
+.header_con_left{
+	flex: 1;
+	border-radius: .24rem 0 0 .24rem;
+}
+
+.header_con_right{
+	flex: 1;
+	border-radius: 0 .24rem .24rem 0;
+}
+
+.header_con_now{
+	background:#64d985;
+	color: #fff;
+}
+
+
+/*==============关注页面==================*/
+
+.attention{
+	flex: 1;
+	background: #f1f1f1;
+	overflow-y: auto;
+}
+
+.up{
+	height: .50rem;
+	font-size: .24rem;
+	color : #999;
+	text-align: center;
+	line-height: .48rem;
+}
+
+.content{
+	background:#fff;
+	border-bottom: .01rem solid #e5e5e5;
+	margin-bottom: .1rem;
+}
+
+.msg_head{
+	height: 1.41rem;
+	box-sizing: border-box;
+	padding:.21rem .23rem;
+}
+
+.msg_head img{
+	width: .95rem;
+	height: .95rem;
+	float: left;
+	margin-right: .19rem;
+}
+
+.person_info{
+	width: 3.54rem;
+	font-size: .28rem;
+	line-height: .48rem;
+}
+
+.person_id{
+	color:#000;
+}
+
+.person_dec{
+	color:#999;
+	font-size: .24rem;
+}
+
+.amount{
+	width: .98rem;
+	height: .48rem;
+	font-size: .24rem;
+	line-height: .48rem;
+	color:#ccc;
+}
+
+.msg_head i{
+	width: .28rem;
+	height: .48rem;
+	font-size: .28rem;
+	line-height: .48rem;
+	color:#ccc;
+}
+
+.msg_con{
+	height: 5.68rem;
+}
+
+.msg_con img{
+	width: 100%;
+	height: 100%;
+}
+
+.msg_dec{
+	padding: .15rem .41rem;
+	font-size: .24rem;
+}
+
+.msg_dec a{
+	line-height: .5rem;
+	color:#333333;
+}
+
+/*==============热点页面==================*/
+
+.hot{
+	flex: 1;
+	background: #ffffff;
+	overflow-y: auto;
+}
+
+.tap{
+	height: .7rem;
+	font-size: .28rem;
+	text-align: center;
+	line-height: .7rem;
+	color:#666;
+	background:#fff;
+	position:absolute;
+	z-index: 5;
+}
+
+.tap_left{
+	width: 2rem;
+	border-bottom: .01rem solid #d9d9d9;
+}
+
+.tap_con{
+	width: 2.4rem;
+	border-bottom: .01rem solid #d9d9d9;
+}
+
+.tap_right{
+	width: 2rem;
+	border-bottom: .01rem solid #d9d9d9;
+}
+
+.tap_now{
+	height: .67rem;
+	border-bottom: .04rem solid #0dc441;
+	color:#0dc441;
+}
+
+.hot_con{
+	padding-top: .7rem;
+}
+
+.hot_content{
+	width: 3.15rem;
+	height: 3.74rem;
+	margin-top: .1rem;
+	box-sizing: border-box;
+	border: .01rem	solid #e5e5e5; 
+}
+
+.hot_content img{
+	width: 3.13rem;
+	height: 3.13rem;
+}
+
+.hot_txt{
+	box-sizing: border-box;
+	border-top: .01rem	solid #e5e5e5; 
+	font-size: .24rem;
+	padding: .05rem 0.2rem;
+	line-height: .4rem;
+	color:#333333;
+}
+
+.life_content{
+	border:0.01rem solid #e5e5e5;
+	margin-top: .08rem;
+}
+
+.life_content .life_small{
+	width: 3.13rem;
+	height: 2.11rem;
+}
+
+.life_content .life_big{
+	width: 3.13rem;
+	height: 2.27rem;
+}
+
+.life_txt{
+	border-top:0.01rem solid #e5e5e5;
+	font-size: .24rem;
+	padding: .05rem 0.2rem;
+	line-height: .4rem;
+	color:#333333;
+	width: 3.13rem;
+	box-sizing: border-box;
+}
+
+.hot_con .container1{
+	height: 8.9rem;
+}
+
+.hot_con .container2{
+	height: 8.9rem;
+}
+
+
+
+/*==============footer==================*/
+
+footer{
+	width: 100%;
+	height: .88rem;
+	position: relative;
+	background: #fff;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid #d9d9d9;
+}
+
+footer .page_now{
+	color:#0dc441;
+}
+
+
+footer p{
+	font-size: .24rem;
+}
+
+footer i{
+	line-height: 0.5rem;
+}
+
+.home{
+	width:1.1rem;
+	height: .88rem;
+	font-size: .32rem;
+	text-align: center;
+	color:#d1d1d1;
+}
+
+.find{
+	width:1.63rem;
+	height: .88rem;
+	font-size: .32rem;
+	text-align: center;
+	color:#d1d1d1;
+}
+
+.photo{
+	border-radius: 1.05rem;
+	border: .01rem solid #dedede; 
+	width:1.05rem;
+	height: 1.05rem;
+	font-size: .55rem;
+	text-align: center;
+	color:#d1d1d1;
+	line-height: 1rem;
+	margin-top: -0.21rem;
+	background:#fff;
+	position:relative;
+	z-index: 5;
+}
+
+.my{
+	width:1.63rem;
+	height: .88rem;
+	font-size: .32rem;
+	text-align: center;
+	color:#d1d1d1;
+}
+
+.out{
+	width:.95rem;
+	height: .88rem;
+	font-size: .32rem;
+	text-align: center;
+	color:#d1d1d1;
+}

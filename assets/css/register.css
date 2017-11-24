@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+section a{
+	margin-top: 0.8rem;
+}
+
+section input{
+	margin: 0;
+	margin-top: .55rem;
+}
+
+section span{
+	display: none;
+	font-size: .24rem;
+	color: red;
+}
+
+section i{
+	display: none;
+	font-size: .24rem;
+}

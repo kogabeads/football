@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+.attention .content{
+	max-height: 9.4rem;
+}
+
+.content .msg_head{
+	border: 0;
+}
+
+.page{
+	height: .45rem;
+	border-bottom: .01rem solid #e5e5e5;
+}
+
+.page li{
+	float: left;
+	width: 2rem;
+	text-align: center;
+	line-height: .45rem;
+	font-size: .24rem;
+	color:#999;
+	box-sizing: border-box;
+}
+
+
+
+.page .page_con{
+	width: 2.4rem;
+}
+
+.page .tap_now{
+	color:#0dc441;
+	height: .45rem;
+	border-bottom: .05rem solid #0dc441;
+}
+
+.content .page_photo{
+	height: 7.5rem;
+}
+
+.page_photo img{
+	width: 3.1rem;
+	height: 3.13rem;
+	display: inline-block;
+}
+
+
+
+.attention{
+	background: #fff;
+}

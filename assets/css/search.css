@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+header{
+	font-size: .34rem;
+	color: #fff;
+	text-align: center;
+	line-height: .88rem;
+}
+
+.attention{
+	padding-top: .1rem;
+	height: 9rem;
+}
+
+.attention .content{
+	border: 0;
+}
+
+.attention .msg_head{
+	border-bottom: .01rem solid #e5e5e5; 
+}
+
+.search{
+	width: 6.4rem;
+	height: .65rem;
+	background: #fff;
+	box-sizing: border-box;
+	padding:.08rem .18rem;
+}
+
+.search input{
+	width: 4.92rem;
+	height: .44rem;
+	border: .01rem solid #aaaaaa;
+	border-radius: .05rem;
+	font-size: .24rem;
+	padding-left: .12rem;
+	float: left;
+	margin-right: .04rem;
+}
+
+.search a{
+	display: block;
+	float: left;
+	width: .91rem;
+	height: .46rem;
+	background:#0dc441;
+	border-radius: .05rem;
+	text-align: center;
+	line-height: .46rem;
+	font-size: .24rem;
+	color:#fff;
+	margin-top: .02rem;
+}
+
+.msg_head a{
+	display: block;
+	width:.75rem;
+	height: .35rem;
+	float: right;
+	text-align: center;
+	line-height: .35rem;
+	font-size: .24rem;
+	color:#fff;
+	background:#e5e5e5;
+	border-radius: .05rem;
+}
+
+.msg_head .attentioned{
+	background:#0dc441;
+}
